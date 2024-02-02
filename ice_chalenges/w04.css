@@ -1,0 +1,36 @@
+body{
+    background-color: pink;
+    max-width: 398px;
+    margin: 0 auto;
+}
+.box{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    /* text-align: center; */
+    color: white
+}
+p{
+    /* text-align: center; */
+    font-size: medium;
+    color: white
+}
+ol{
+    text-align: left;
+    font-weight: bold;
+}
+img{
+    width: 40%;
+}
+
+.quote {
+    font-size: 2em;
+    font-weight: bold;
+}
+footer p{
+    font-size: 1em;
+    color: black;
+    
+}
