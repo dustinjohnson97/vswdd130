@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -23,6 +26,10 @@ main section {
 }
 body{
     background-color: #778DA9;
+    font-family: "Playfair+Display" , georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #0D1B2A;
@@ -35,6 +42,10 @@ nav a:hover{
     background-color:#778DA9;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #778DA9;
@@ -45,22 +56,32 @@ nav a:hover{
 }
 .msg{
     background-color: #778DA9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #0D1B2A;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
+    font-family: "Open Sans", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: black;
+    font-family: "Open Sans", Tahoma, Arial, Helvetica, sans-serif;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: white;
@@ -71,6 +92,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -84,4 +106,25 @@ footer p {
 footer p a:hover{
     
     text-decoration: underline;
+}
+.mountains{
+    margin: 100px 0;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }

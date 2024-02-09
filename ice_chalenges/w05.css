@@ -4,7 +4,23 @@ body{
 main{
     background-color: grey;
     margin: 0;
+    text-align: center;
+}
+.person, .graphic, .desk{
+    border-radius: 50%;
+    width: 300px;
+    align-content: center;
+    /* padding-right: 5%; */
+}
+.graphic{
+    margin: 10px 20px;
 }
 header{
     text-align: center;
+    display: grid;
 }
+header img{
+    width: 100%;
+}
+
+# all thats left to do is the border
