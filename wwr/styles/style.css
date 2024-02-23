@@ -138,7 +138,7 @@ footer .social img {
     padding-top: 15px;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin-top: 200px;
+    margin: 200px 0;
 }
 .card-img {
     border: 10px solid black;
