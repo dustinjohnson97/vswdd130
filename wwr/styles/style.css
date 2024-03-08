@@ -187,6 +187,21 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* Rivers Page */
+
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+#river-msg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+
+/* Media Query */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
